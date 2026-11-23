@@ -1,0 +1,11 @@
+{
+  "Name": "hello-uivision",
+  "CreationDate": "2026-11-23",
+  "Commands": [
+    { "Command": "open", "Target": "https://ui.vision/", "Value": "" },
+    { "Command": "waitForPageToLoad", "Target": "30000", "Value": "" },
+    { "Command": "assertTitle", "Target": "*Ui.Vision*", "Value": "" },
+    { "Command": "storeText", "Target": "css=h1", "Value": "heading" },
+    { "Command": "echo", "Target": "Judul halaman: ${heading}", "Value": "" }
+  ]
+}
